@@ -35,7 +35,7 @@ public class TestContact {
 		DesiredCapabilities DCforContact = new DesiredCapabilities();
 		DCforContact.setCapability("platformName", "Android");
 		DCforContact.setCapability("deviceName", "Nexus 5X API 27");
-		DCforContact.setCapability("app", "G:\\Formation AUTOM Distancielle\\Cours\\Module 2\\Appium\\Simple_Contacts_v4.5.0_apkpure.com.apk");
+		DCforContact.setCapability("app", "src/test/resources/Simple_Contacts_v4.5.0_apkpure.com.apk");
 		DCforContact.setCapability("appPackage", "com.simplemobiletools.contacts");
 		DCforContact.setCapability("appActivity", "com.simplemobiletools.contacts.activities.MainActivity");
 		
